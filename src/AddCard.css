@@ -1,0 +1,19 @@
+.addcardbox{
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px black;
+    width:70vw;
+    height: 50vh;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.inputs{
+    padding:5px 10px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+}

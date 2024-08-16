@@ -1,0 +1,26 @@
+.cardBody{
+    background-color: rgb(255, 163, 163);
+    height:70vh;
+    width:30vw;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform 1s ease-in-out;
+}
+.cardtext{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'cursive';
+    text-align: center;
+}
+.animation{
+    transform: rotateY(360deg);
+}
+.moveNext{
+    transform: translateX(-900px) rotateZ(360deg);
+
+}

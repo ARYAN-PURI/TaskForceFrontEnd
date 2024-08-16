@@ -1,0 +1,30 @@
+.heading{
+    text-align: center;
+    margin: 10px 0px;
+}
+.error{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+.recordWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.record{
+    display: flex;
+    justify-content: space-around;
+    width:80vw;
+    background-color: rgb(183, 183, 255);
+    margin: 10px 0px;
+    border-radius: 20px;
+    padding:5px 10px;
+}
+.recordtext{
+    font-family: 'cursive';
+    font-weight: bold;
+    font-size: large;
+    
+}
