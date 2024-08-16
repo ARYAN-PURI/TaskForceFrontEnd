@@ -11,7 +11,7 @@ export default function AddCard(){
                 },
                 body:JSON.stringify(data)
             }
-            let response=await fetch('http://localhost:3000/addcard',apidata);
+            let response=await fetch('https://taskforcebackend.onrender.com/addcard',apidata);
             response=await response.json();
             console.log(response);
             setData({question:'',answer:''});

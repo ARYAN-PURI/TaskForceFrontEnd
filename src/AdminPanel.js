@@ -23,7 +23,7 @@ export default function AdminPanel(){
             },
             body:JSON.stringify({id:id})
         }
-        fetch('http://localhost:3000/deletecard',apidata)
+        fetch('https://taskforcebackend.onrender.com/deletecard',apidata)
         .then((res)=>res.json())
         .then((res)=>{
             console.log(res);
@@ -31,7 +31,7 @@ export default function AdminPanel(){
         })
     }
     async function getdata(){
-        let data=await fetch('http://localhost:3000/getcards');
+        let data=await fetch('https://taskforcebackend.onrender.com/getcards');
         let response=await data.json();
         console.log(response);
         setCardData(response);

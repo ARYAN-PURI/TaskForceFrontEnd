@@ -7,7 +7,7 @@ export default function Dashboard(){
     let [current,setCurrent]=React.useState(0);
     let [moveNext,setMoveNext]=React.useState(false);
     async function getdata(){
-        let data=await fetch('http://localhost:3000/getcards');
+        let data=await fetch('https://taskforcebackend.onrender.com/getcards');
         let response=await data.json();
         console.log(response);
         setCardData(response);
